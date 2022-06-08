@@ -11,6 +11,8 @@
 		0074D213284A363C0053F118 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D212284A363C0053F118 /* ContentView.swift */; };
 		0074D215284A363E0053F118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0074D214284A363E0053F118 /* Assets.xcassets */; };
 		0074D218284A363E0053F118 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0074D217284A363E0053F118 /* Preview Assets.xcassets */; };
+		0074D223284A40230053F118 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D222284A40230053F118 /* Inventory.swift */; };
+		00A80D932850ED970004CC06 /* ACNH_Inventory.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A80D922850ED970004CC06 /* ACNH_Inventory.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0074D212284A363C0053F118 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0074D214284A363E0053F118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0074D217284A363E0053F118 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0074D222284A40230053F118 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		00A80D922850ED970004CC06 /* ACNH_Inventory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ACNH_Inventory.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,10 @@
 		0074D20F284A363C0053F118 /* AnimalCrossingInventory */ = {
 			isa = PBXGroup;
 			children = (
+				00A80D922850ED970004CC06 /* ACNH_Inventory.json */,
+				0074D221284A379E0053F118 /* ViewModels */,
+				0074D21F284A378F0053F118 /* Models */,
+				0074D21E284A37880053F118 /* Views */,
 				0074D210284A363C0053F118 /* AnimalCrossingInventoryApp.swift */,
 				0074D212284A363C0053F118 /* ContentView.swift */,
 				0074D214284A363E0053F118 /* Assets.xcassets */,
@@ -65,6 +73,28 @@
 				0074D217284A363E0053F118 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0074D21E284A37880053F118 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0074D21F284A378F0053F118 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0074D222284A40230053F118 /* Inventory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0074D221284A379E0053F118 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +157,7 @@
 			files = (
 				0074D218284A363E0053F118 /* Preview Assets.xcassets in Resources */,
 				0074D215284A363E0053F118 /* Assets.xcassets in Resources */,
+				00A80D932850ED970004CC06 /* ACNH_Inventory.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0074D223284A40230053F118 /* Inventory.swift in Sources */,
 				0074D213284A363C0053F118 /* ContentView.swift in Sources */,
 				0074D211284A363C0053F118 /* AnimalCrossingInventoryApp.swift in Sources */,
 			);
