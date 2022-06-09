@@ -11,7 +11,7 @@ import SwiftUI
 struct AnimalCrossingInventoryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ItemDetailView()
         }
     }
 }

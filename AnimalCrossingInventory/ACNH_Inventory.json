@@ -1,1610 +1,1618 @@
 {
-    "fish": [
-        {
-            "id": "1",
-            "name": "Anchois",
-            "price": "200",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "4h - 21h",
-                "isAllDay": false,
-                "isAllYear": true,
-                "location": "Océan",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "2",
-            "name": "Arapaïma",
-            "price": "10 000",
-            "size": "Enorme",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Septembre",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "3",
-            "name": "Arowana",
-            "price": "10 000",
-            "size": "Très grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Septembre",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "4",
-            "name": "Ayu",
-            "price": "900",
-            "size": "Petite/moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juillet - Septembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "5",
-            "name": "Bar",
-            "price": "400",
-            "size": "Grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": true,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "6",
-            "name": "Bar commun",
-            "price": "400",
-            "size": "Très grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": true,
-                "location": "Océan",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "7",
-            "name": "Bichir",
-            "price": "4 000",
-            "size": "Grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Septembre",
-                "month-southern": "",
-                "time": "21h - 4h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "8",
-            "name": "Bouvière",
-            "price": "900",
-            "size": "Minuscule",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Novembre - Mars",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "9",
-            "name": "Brochet",
-            "price": "1 800",
-            "size": "Moyenne/grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Septembre - Décembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "10",
-            "name": "Calmar",
-            "price": "500",
-            "size": "Moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Décembre - Août",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "11",
-            "name": "Carangue grosse tête",
-            "price": "4 500",
-            "size": "Très grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mai - Octobre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan (ponton)",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "12",
-            "name": "Carassin",
-            "price": "160",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": true,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "13",
-            "name": "Cardeau",
-            "price": "800",
-            "size": "Très grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": true,
-                "location": "Océan",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "14",
-            "name": "Carpe",
-            "price": "300",
-            "size": "Moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": true,
-                "location": "Etang",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "15",
-            "name": "Carpe koï",
-            "price": "4 000",
-            "size": "Moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": true,
-                "location": "Etang",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "16",
-            "name": "Chevaine",
-            "price": "200",
-            "size": "Minuscule",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "9h - 16h",
-                "isAllDay": false,
-                "isAllYear": true,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "17",
-            "name": "Chinchard",
-            "price": "150",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": true,
-                "location": "Océan",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "18",
-            "name": "Clione",
-            "price": "1 000",
-            "size": "Minuscule",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Décembre - Mars",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "19",
-            "name": "Combattant",
-            "price": "2 500",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mai - Octobre",
-                "month-southern": "",
-                "time": "9h - 16h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "20",
-            "name": "Coryphène",
-            "price": "6 000",
-            "size": "Très grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mai - Octobre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan (ponton)",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "21",
-            "name": "Crabe chinois",
-            "price": "2 000",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Septembre - novembre",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "22",
-            "name": "Crapet",
-            "price": "180",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "9h - 16h",
-                "isAllDay": false,
-                "isAllYear": true,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "23",
-            "name": "Cyprin doré",
-            "price": "1 300",
-            "size": "Minuscule",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "9h - 16h",
-                "isAllDay": false,
-                "isAllYear": true,
-                "location": "Etang",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "24",
-            "name": "Cœlacanthe",
-            "price": "15 000",
-            "size": "Enorme",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": true,
-                "location": "Océan (pluie/neige)",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "25",
-            "name": "Dai yu",
-            "price": "15 000",
-            "size": "Enorme",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Décembre - Mars",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière (falaise)",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "26",
-            "name": "Dorado",
-            "price": "15 000",
-            "size": "Très grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Septembre",
-                "month-southern": "",
-                "time": "4h - 21h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "27",
-            "name": "Ecrevisse",
-            "price": "200",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Avril - Septembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Etang",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "28",
-            "name": "Eperlan",
-            "price": "320",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Décembre - Février",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "29",
-            "name": "Esturgeon",
-            "price": "10 000",
-            "size": "Enorme",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Septembre - Mars",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Embouchure de rivière",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "30",
-            "name": "Fondule barré",
-            "price": "300",
-            "size": "Minuscule",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Avril - Août",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Etang",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "31",
-            "name": "Gar",
-            "price": "6 000",
-            "size": "Enorme",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Septembre",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Etang",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "32",
-            "name": "Gobie d'eau douce",
-            "price": "400",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": true,
-                "location": "Rivière",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "33",
-            "name": "Grand requin blanc",
-            "price": "15 000",
-            "size": "Enorme (aileron)",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Septembre",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "34",
-            "name": "Grenouille",
-            "price": "120",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mai - Août",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Etang",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "35",
-            "name": "Guppy",
-            "price": "1 300",
-            "size": "Minuscule",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Avril - Novembre",
-                "month-southern": "",
-                "time": "9h - 16h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "36",
-            "name": "Hippocampe",
-            "price": "1 100",
-            "size": "Minuscule",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Avril - Novembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "37",
-            "name": "Ishidai",
-            "price": "5 000",
-            "size": "Moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mars - Novembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "38",
-            "name": "Limande",
-            "price": "300",
-            "size": "Moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Octobre - Avril",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "39",
-            "name": "Loche d'étang",
-            "price": "400",
-            "size": "Petite/moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mars - Mai",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "40",
-            "name": "Lune de mer",
-            "price": "4 000",
-            "size": "Enorme (aileron)",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juillet - Septembre",
-                "month-southern": "",
-                "time": "4h - 21h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "41",
-            "name": "Macropinna",
-            "price": "15 000",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "21h - 4h",
-                "isAllDay": false,
-                "isAllYear": true,
-                "location": "Océan",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "42",
-            "name": "Marlin bleu",
-            "price": "10 000",
-            "size": "Enorme",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juillet - Septembre, Novembre - Avril",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan (ponton)",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "43",
-            "name": "Murène",
-            "price": "2 000",
-            "size": "Fine",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Août - Octobre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "44",
-            "name": "Murène ruban bleue",
-            "price": "600",
-            "size": "Fine",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Octobre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "45",
-            "name": "Napoléan",
-            "price": "10 000",
-            "size": "Enorme",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juillet - Août",
-                "month-southern": "",
-                "time": "4h - 21h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "46",
-            "name": "Néon bleu",
-            "price": "500",
-            "size": "Minuscule",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Avril - Novembre",
-                "month-southern": "",
-                "time": "9h - 16h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "47",
-            "name": "Omble",
-            "price": "3 800",
-            "size": "Moyenne/grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mars - Juin, Septembre - Novembre",
-                "month-southern": "",
-                "time": "16h - 9h / Toute la journée (septembre - novembre)",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière (falaise)",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "48",
-            "name": "Perche jaune",
-            "price": "300",
-            "size": "Petite/moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Octobre - Mars",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "49",
-            "name": "Piranha",
-            "price": "2 500",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Septembre",
-                "month-southern": "",
-                "time": "9h - 16, 21h - 4h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "50",
-            "name": "Poisson arc-en-ciel",
-            "price": "800",
-            "size": "Minuscule",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mai - Octobre",
-                "month-southern": "",
-                "time": "9h - 16h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "51",
-            "name": "Poisson chirurgien",
-            "price": "1 000",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Avril - Septembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "52",
-            "name": "Poisson docteur",
-            "price": "1 500",
-            "size": "Minuscule",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mai - Septembre",
-                "month-southern": "",
-                "time": "9h - 16h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "53",
-            "name": "Poisson lanterne",
-            "price": "2 500",
-            "size": "Grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Novembre - Mars",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "54",
-            "name": "Poisson rouge",
-            "price": "1 300",
-            "size": "Minuscule",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": true,
-                "location": "Minuscule",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "55",
-            "name": "Poisson-ange",
-            "price": "3 000",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mai - Octobre",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "56",
-            "name": "Poisson-ballon",
-            "price": "5 000",
-            "size": "Moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Novembre - Février",
-                "month-southern": "",
-                "time": "21h - 4h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "57",
-            "name": "Poisson-clown",
-            "price": "650",
-            "size": "Minuscule",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Avril - Septembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "58",
-            "name": "Poisson-papillon",
-            "price": "1 000",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Avril - Septembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "59",
-            "name": "Poisson-porc-épic",
-            "price": "250",
-            "size": "Moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juillet - Septembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "60",
-            "name": "Poisson-ruban",
-            "price": "9 000",
-            "size": "Enorme",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Décembre - Mai",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "61",
-            "name": "Poisson-scorpion",
-            "price": "500",
-            "size": "Moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Avril - Novembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "62",
-            "name": "Raie",
-            "price": "3 000",
-            "size": "Enorme",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Août - Novembre",
-                "month-southern": "",
-                "time": "4h - 21h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "63",
-            "name": "Ranchu",
-            "price": "4 500",
-            "size": "Petite",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "9h - 16h",
-                "isAllDay": false,
-                "isAllYear": true,
-                "location": "Etang",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "64",
-            "name": "Rémora Rayé",
-            "price": "1 500",
-            "size": "Moyenne (aileron)",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Septembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "65",
-            "name": "Requin Marteau",
-            "price": "8 000",
-            "size": "Enorme (aileron)",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Septembre",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "66",
-            "name": "Requin Scie",
-            "price": "12 000",
-            "size": "Enorme (aileron)",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Septembre",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "67",
-            "name": "Requin Baleine",
-            "price": "13 000",
-            "size": "Enorme (aileron)",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Septembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "68",
-            "name": "Saumon",
-            "price": "700",
-            "size": "Grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Septembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Embouchure de rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "69",
-            "name": "Saumon Masou",
-            "price": "1 000",
-            "size": "Petite/moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mars - Juin, Septembre - Novembre",
-                "month-southern": "",
-                "time": "16h - 9h, toute la journée (septembre - novembre)",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière (falaise)",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "70",
-            "name": "Saumon Roi",
-            "price": "1 800",
-            "size": "Enorme",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Septembre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Embouchure de rivière",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "71",
-            "name": "Silure",
-            "price": "800",
-            "size": "Moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mai - Octobre",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Etang",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "72",
-            "name": "Têtard",
-            "price": "100",
-            "size": "Minuscule",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mars - Juillet",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Etang",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "73",
-            "name": "Tête-de-serpent",
-            "price": "5 500",
-            "size": "Grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Août",
-                "month-southern": "",
-                "time": "9h - 16h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Etang",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "74",
-            "name": "Thon",
-            "price": "7 000",
-            "size": "Enorme",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Novembre - Avril",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Océan (ponton)",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "75",
-            "name": "Tilapia",
-            "price": "800",
-            "size": "Moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Juin - Octobre",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "76",
-            "name": "Tortue Serpentine",
-            "price": "5 000",
-            "size": "Grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Avril - Octobre",
-                "month-southern": "",
-                "time": "21h - 4h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "77",
-            "name": "Tortue Trionyx",
-            "price": "3 750",
-            "size": "Grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Août - Septembre",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "78",
-            "name": "Truite Dorée",
-            "price": "15 000",
-            "size": "Moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "Mars - Mai, Septembre - Novembre",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "Rivière (falaise)",
-                "rarity": "Très Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "79",
-            "name": "Vandoise",
-            "price": "240",
-            "size": "Moyenne",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "16h - 9h",
-                "isAllDay": false,
-                "isAllYear": true,
-                "location": "Rivière",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "80",
-            "name": "Vivaneau",
-            "price": "3 000",
-            "size": "Grande",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": true,
-                "isAllYear": true,
-                "location": "Océan",
-                "rarity": "Rare"
-            },
-            "image_url": "",
-            "logo_url": ""
-        }
-    ],
-    "bugs": [
-        {
-            "id": "",
-            "name": "",
-            "price": "",
-            "size": "",
-            "obtained": false,
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "",
-            "name": "",
-            "price": "",
-            "size": "",
-            "obtained": "",
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "",
-            "name": "",
-            "price": "",
-            "size": "",
-            "obtained": "",
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "",
-            "name": "",
-            "price": "",
-            "size": "",
-            "obtained": "",
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "",
-            "name": "",
-            "price": "",
-            "size": "",
-            "obtained": "",
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        }
-    ],
-    "deep_sea": [
-        {
-            "id": "",
-            "name": "",
-            "price": "",
-            "size": "",
-            "obtained": "",
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "",
-            "name": "",
-            "price": "",
-            "size": "",
-            "obtained": "",
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "",
-            "name": "",
-            "price": "",
-            "size": "",
-            "obtained": "",
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
-        },
-        {
-            "id": "",
-            "name": "",
-            "price": "",
-            "size": "",
-            "obtained": "",
-            "availability": {
-                "month-northern": "",
-                "month-southern": "",
-                "time": "",
-                "isAllDay": false,
-                "isAllYear": false,
-                "location": "",
-                "rarity": ""
-            },
-            "image_url": "",
-            "logo_url": ""
+    "categories": [
+        {
+            "fish": [
+                {
+                    "id": "1",
+                    "name": "Anchois",
+                    "price": "200",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "4h - 21h",
+                        "isAllDay": false,
+                        "isAllYear": true,
+                        "location": "Océan",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "2",
+                    "name": "Arapaïma",
+                    "price": "10 000",
+                    "size": "Enorme",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Septembre",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "3",
+                    "name": "Arowana",
+                    "price": "10 000",
+                    "size": "Très grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Septembre",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "4",
+                    "name": "Ayu",
+                    "price": "900",
+                    "size": "Petite/moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juillet - Septembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "5",
+                    "name": "Bar",
+                    "price": "400",
+                    "size": "Grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": true,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "6",
+                    "name": "Bar commun",
+                    "price": "400",
+                    "size": "Très grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": true,
+                        "location": "Océan",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "7",
+                    "name": "Bichir",
+                    "price": "4 000",
+                    "size": "Grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Septembre",
+                        "month-southern": "",
+                        "time": "21h - 4h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "8",
+                    "name": "Bouvière",
+                    "price": "900",
+                    "size": "Minuscule",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Novembre - Mars",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "9",
+                    "name": "Brochet",
+                    "price": "1 800",
+                    "size": "Moyenne/grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Septembre - Décembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "10",
+                    "name": "Calmar",
+                    "price": "500",
+                    "size": "Moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Décembre - Août",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "11",
+                    "name": "Carangue grosse tête",
+                    "price": "4 500",
+                    "size": "Très grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mai - Octobre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan (ponton)",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "12",
+                    "name": "Carassin",
+                    "price": "160",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": true,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "13",
+                    "name": "Cardeau",
+                    "price": "800",
+                    "size": "Très grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": true,
+                        "location": "Océan",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "14",
+                    "name": "Carpe",
+                    "price": "300",
+                    "size": "Moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": true,
+                        "location": "Etang",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "15",
+                    "name": "Carpe koï",
+                    "price": "4 000",
+                    "size": "Moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": true,
+                        "location": "Etang",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "16",
+                    "name": "Chevaine",
+                    "price": "200",
+                    "size": "Minuscule",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "9h - 16h",
+                        "isAllDay": false,
+                        "isAllYear": true,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "17",
+                    "name": "Chinchard",
+                    "price": "150",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": true,
+                        "location": "Océan",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "18",
+                    "name": "Clione",
+                    "price": "1 000",
+                    "size": "Minuscule",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Décembre - Mars",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "19",
+                    "name": "Combattant",
+                    "price": "2 500",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mai - Octobre",
+                        "month-southern": "",
+                        "time": "9h - 16h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "20",
+                    "name": "Coryphène",
+                    "price": "6 000",
+                    "size": "Très grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mai - Octobre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan (ponton)",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "21",
+                    "name": "Crabe chinois",
+                    "price": "2 000",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Septembre - novembre",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "22",
+                    "name": "Crapet",
+                    "price": "180",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "9h - 16h",
+                        "isAllDay": false,
+                        "isAllYear": true,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "23",
+                    "name": "Cyprin doré",
+                    "price": "1 300",
+                    "size": "Minuscule",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "9h - 16h",
+                        "isAllDay": false,
+                        "isAllYear": true,
+                        "location": "Etang",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "24",
+                    "name": "Cœlacanthe",
+                    "price": "15 000",
+                    "size": "Enorme",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": true,
+                        "location": "Océan (pluie/neige)",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "25",
+                    "name": "Dai yu",
+                    "price": "15 000",
+                    "size": "Enorme",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Décembre - Mars",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière (falaise)",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "26",
+                    "name": "Dorado",
+                    "price": "15 000",
+                    "size": "Très grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Septembre",
+                        "month-southern": "",
+                        "time": "4h - 21h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "27",
+                    "name": "Ecrevisse",
+                    "price": "200",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Avril - Septembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Etang",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "28",
+                    "name": "Eperlan",
+                    "price": "320",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Décembre - Février",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "29",
+                    "name": "Esturgeon",
+                    "price": "10 000",
+                    "size": "Enorme",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Septembre - Mars",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Embouchure de rivière",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "30",
+                    "name": "Fondule barré",
+                    "price": "300",
+                    "size": "Minuscule",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Avril - Août",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Etang",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "31",
+                    "name": "Gar",
+                    "price": "6 000",
+                    "size": "Enorme",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Septembre",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Etang",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "32",
+                    "name": "Gobie d'eau douce",
+                    "price": "400",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": true,
+                        "location": "Rivière",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "33",
+                    "name": "Grand requin blanc",
+                    "price": "15 000",
+                    "size": "Enorme (aileron)",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Septembre",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "34",
+                    "name": "Grenouille",
+                    "price": "120",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mai - Août",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Etang",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "35",
+                    "name": "Guppy",
+                    "price": "1 300",
+                    "size": "Minuscule",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Avril - Novembre",
+                        "month-southern": "",
+                        "time": "9h - 16h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "36",
+                    "name": "Hippocampe",
+                    "price": "1 100",
+                    "size": "Minuscule",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Avril - Novembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "37",
+                    "name": "Ishidai",
+                    "price": "5 000",
+                    "size": "Moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mars - Novembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "38",
+                    "name": "Limande",
+                    "price": "300",
+                    "size": "Moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Octobre - Avril",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "39",
+                    "name": "Loche d'étang",
+                    "price": "400",
+                    "size": "Petite/moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mars - Mai",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "40",
+                    "name": "Lune de mer",
+                    "price": "4 000",
+                    "size": "Enorme (aileron)",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juillet - Septembre",
+                        "month-southern": "",
+                        "time": "4h - 21h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "41",
+                    "name": "Macropinna",
+                    "price": "15 000",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "21h - 4h",
+                        "isAllDay": false,
+                        "isAllYear": true,
+                        "location": "Océan",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "42",
+                    "name": "Marlin bleu",
+                    "price": "10 000",
+                    "size": "Enorme",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juillet - Septembre, Novembre - Avril",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan (ponton)",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "43",
+                    "name": "Murène",
+                    "price": "2 000",
+                    "size": "Fine",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Août - Octobre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "44",
+                    "name": "Murène ruban bleue",
+                    "price": "600",
+                    "size": "Fine",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Octobre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "45",
+                    "name": "Napoléan",
+                    "price": "10 000",
+                    "size": "Enorme",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juillet - Août",
+                        "month-southern": "",
+                        "time": "4h - 21h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "46",
+                    "name": "Néon bleu",
+                    "price": "500",
+                    "size": "Minuscule",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Avril - Novembre",
+                        "month-southern": "",
+                        "time": "9h - 16h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "47",
+                    "name": "Omble",
+                    "price": "3 800",
+                    "size": "Moyenne/grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mars - Juin, Septembre - Novembre",
+                        "month-southern": "",
+                        "time": "16h - 9h / Toute la journée (septembre - novembre)",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière (falaise)",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "48",
+                    "name": "Perche jaune",
+                    "price": "300",
+                    "size": "Petite/moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Octobre - Mars",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "49",
+                    "name": "Piranha",
+                    "price": "2 500",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Septembre",
+                        "month-southern": "",
+                        "time": "9h - 16, 21h - 4h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "50",
+                    "name": "Poisson arc-en-ciel",
+                    "price": "800",
+                    "size": "Minuscule",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mai - Octobre",
+                        "month-southern": "",
+                        "time": "9h - 16h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "51",
+                    "name": "Poisson chirurgien",
+                    "price": "1 000",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Avril - Septembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "52",
+                    "name": "Poisson docteur",
+                    "price": "1 500",
+                    "size": "Minuscule",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mai - Septembre",
+                        "month-southern": "",
+                        "time": "9h - 16h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "53",
+                    "name": "Poisson lanterne",
+                    "price": "2 500",
+                    "size": "Grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Novembre - Mars",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "54",
+                    "name": "Poisson rouge",
+                    "price": "1 300",
+                    "size": "Minuscule",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": true,
+                        "location": "Minuscule",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "55",
+                    "name": "Poisson-ange",
+                    "price": "3 000",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mai - Octobre",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "56",
+                    "name": "Poisson-ballon",
+                    "price": "5 000",
+                    "size": "Moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Novembre - Février",
+                        "month-southern": "",
+                        "time": "21h - 4h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "57",
+                    "name": "Poisson-clown",
+                    "price": "650",
+                    "size": "Minuscule",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Avril - Septembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "58",
+                    "name": "Poisson-papillon",
+                    "price": "1 000",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Avril - Septembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "59",
+                    "name": "Poisson-porc-épic",
+                    "price": "250",
+                    "size": "Moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juillet - Septembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "60",
+                    "name": "Poisson-ruban",
+                    "price": "9 000",
+                    "size": "Enorme",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Décembre - Mai",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "61",
+                    "name": "Poisson-scorpion",
+                    "price": "500",
+                    "size": "Moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Avril - Novembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "62",
+                    "name": "Raie",
+                    "price": "3 000",
+                    "size": "Enorme",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Août - Novembre",
+                        "month-southern": "",
+                        "time": "4h - 21h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "63",
+                    "name": "Ranchu",
+                    "price": "4 500",
+                    "size": "Petite",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "9h - 16h",
+                        "isAllDay": false,
+                        "isAllYear": true,
+                        "location": "Etang",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "64",
+                    "name": "Rémora Rayé",
+                    "price": "1 500",
+                    "size": "Moyenne (aileron)",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Septembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "65",
+                    "name": "Requin Marteau",
+                    "price": "8 000",
+                    "size": "Enorme (aileron)",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Septembre",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "66",
+                    "name": "Requin Scie",
+                    "price": "12 000",
+                    "size": "Enorme (aileron)",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Septembre",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "67",
+                    "name": "Requin Baleine",
+                    "price": "13 000",
+                    "size": "Enorme (aileron)",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Septembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "68",
+                    "name": "Saumon",
+                    "price": "700",
+                    "size": "Grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Septembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Embouchure de rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "69",
+                    "name": "Saumon Masou",
+                    "price": "1 000",
+                    "size": "Petite/moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mars - Juin, Septembre - Novembre",
+                        "month-southern": "",
+                        "time": "16h - 9h, toute la journée (septembre - novembre)",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière (falaise)",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "70",
+                    "name": "Saumon Roi",
+                    "price": "1 800",
+                    "size": "Enorme",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Septembre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Embouchure de rivière",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "71",
+                    "name": "Silure",
+                    "price": "800",
+                    "size": "Moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mai - Octobre",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Etang",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "72",
+                    "name": "Têtard",
+                    "price": "100",
+                    "size": "Minuscule",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mars - Juillet",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Etang",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "73",
+                    "name": "Tête-de-serpent",
+                    "price": "5 500",
+                    "size": "Grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Août",
+                        "month-southern": "",
+                        "time": "9h - 16h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Etang",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "74",
+                    "name": "Thon",
+                    "price": "7 000",
+                    "size": "Enorme",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Novembre - Avril",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Océan (ponton)",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "75",
+                    "name": "Tilapia",
+                    "price": "800",
+                    "size": "Moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Juin - Octobre",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "76",
+                    "name": "Tortue Serpentine",
+                    "price": "5 000",
+                    "size": "Grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Avril - Octobre",
+                        "month-southern": "",
+                        "time": "21h - 4h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "77",
+                    "name": "Tortue Trionyx",
+                    "price": "3 750",
+                    "size": "Grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Août - Septembre",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "78",
+                    "name": "Truite Dorée",
+                    "price": "15 000",
+                    "size": "Moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "Mars - Mai, Septembre - Novembre",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "Rivière (falaise)",
+                        "rarity": "Très Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "79",
+                    "name": "Vandoise",
+                    "price": "240",
+                    "size": "Moyenne",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "16h - 9h",
+                        "isAllDay": false,
+                        "isAllYear": true,
+                        "location": "Rivière",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "80",
+                    "name": "Vivaneau",
+                    "price": "3 000",
+                    "size": "Grande",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": true,
+                        "isAllYear": true,
+                        "location": "Océan",
+                        "rarity": "Rare"
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                }
+            ]
+        },
+        {
+            "bugs": [
+                {
+                    "id": "",
+                    "name": "",
+                    "price": "",
+                    "size": "",
+                    "obtained": false,
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "price": "",
+                    "size": "",
+                    "obtained": "",
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "price": "",
+                    "size": "",
+                    "obtained": "",
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "price": "",
+                    "size": "",
+                    "obtained": "",
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "price": "",
+                    "size": "",
+                    "obtained": "",
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                }
+            ]
+        },
+        {
+            "deep_sea": [
+                {
+                    "id": "",
+                    "name": "",
+                    "price": "",
+                    "size": "",
+                    "obtained": "",
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "price": "",
+                    "size": "",
+                    "obtained": "",
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "price": "",
+                    "size": "",
+                    "obtained": "",
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "price": "",
+                    "size": "",
+                    "obtained": "",
+                    "availability": {
+                        "month-northern": "",
+                        "month-southern": "",
+                        "time": "",
+                        "isAllDay": false,
+                        "isAllYear": false,
+                        "location": "",
+                        "rarity": ""
+                    },
+                    "image_url": "",
+                    "logo_url": ""
+                }
+            ]
         }
     ]
 }

@@ -8,15 +8,21 @@
 // This file was generated from JSON Schema using quicktype, do not modify it directly.
 // To parse the JSON, add this file to your project and do:
 //
-//   let welcome = try? newJSONDecoder().decode(Welcome.self, from: jsonData)
+//   let inventory: Inventory = try! newJSONDecoder().decode(Inventory.self, from: jsonData)
+
 
 import Foundation
 
 // MARK: - Inventory
 struct Inventory: Codable {
+    let categories: [Category]
+}
+
+// MARK: - Category
+struct Category: Codable {
     let fish: [Fish]
-    let bugs: [Bug]
-    let deepSea: [DeepSea]
+    let bugs: [Bug]?
+    let deepSea: [DeepSea]?
 
     enum CodingKeys: String, CodingKey {
         case fish, bugs
