@@ -12,6 +12,7 @@
 
 
 import Foundation
+import SwiftUI
 
 // MARK: - Inventory
 struct Inventory: Codable {
@@ -31,7 +32,7 @@ struct Category: Codable {
 }
 
 // MARK: - Bug
-struct Bug: Codable {
+struct Bug: Codable, Identifiable {
     let id, name, price, size: String
     let obtained: Obtained
     let availability: Availability
@@ -89,7 +90,7 @@ enum Obtained: Codable {
 }
 
 // MARK: - DeepSea
-struct DeepSea: Codable {
+struct DeepSea: Codable, Identifiable {
     let id, name, price, size: String
     let obtained: String
     let availability: Availability
@@ -103,7 +104,7 @@ struct DeepSea: Codable {
 }
 
 // MARK: - Fish
-struct Fish: Codable {
+struct Fish: Codable, Identifiable {
     let id, name, price, size: String
     let obtained: Bool
     let availability: Availability

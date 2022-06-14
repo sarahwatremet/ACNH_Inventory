@@ -13,7 +13,7 @@ struct AnimalCrossingInventoryApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ItemDetailView()
+            ItemDetailView(item: InventoryData().inventories)
                 .environmentObject(inventoryItems)
         }
     }

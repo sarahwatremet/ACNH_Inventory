@@ -6,15 +6,24 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ItemDetailView: View {
     @EnvironmentObject var inventoryItem: InventoryData
-    //var item: Inventory
+    var item: Inventory
     
     var body: some View {
         VStack {
             
-            ItemImage()
+            AsyncImage(url: URL(string: item.categories[0].fish![0].imageURL))
+//                .frame(width: 200, height: 100)
+//                .background(Image("fond"))
+//                .clipShape(Rectangle())
+//                .overlay{
+//                    Rectangle().stroke(.green, lineWidth: 2)
+//                }
+//                .shadow(radius: 2)
+               
             
             VStack {
                 Text(inventoryItem.inventories.categories[0].fish![0].name)
@@ -58,7 +67,7 @@ struct ItemDetailView_Previews: PreviewProvider {
     static let inventoryItems = InventoryData()
 
     static var previews: some View {
-        ItemDetailView()
+        ItemDetailView(item: InventoryData().inventories)
             .environmentObject(inventoryItems)
     }
 }
