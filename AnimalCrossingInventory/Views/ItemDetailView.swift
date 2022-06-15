@@ -15,18 +15,22 @@ struct ItemDetailView: View {
     var body: some View {
         VStack {
             
-            AsyncImage(url: URL(string: item.categories[0].fish![0].imageURL))
-//                .frame(width: 200, height: 100)
-//                .background(Image("fond"))
-//                .clipShape(Rectangle())
-//                .overlay{
-//                    Rectangle().stroke(.green, lineWidth: 2)
-//                }
-//                .shadow(radius: 2)
-               
+            AsyncImage(url: URL(string: item.categories[0].fish![0].imageURL)) { image in
+                image
+                    .background(Image("fond"))
+                    .clipShape(Rectangle())
+                    .overlay{
+                        Rectangle().stroke(.green, lineWidth: 2)
+                    }
+                    .shadow(radius: 2)
+                } placeholder: {
+                    ProgressView()
+                }
+                .frame(width: 200, height: 100)
+                
             
             VStack {
-                Text(inventoryItem.inventories.categories[0].fish![0].name)
+                Text(item.categories[0].fish![0].name)
                 .font(.title)
                 .bold()
             
@@ -34,27 +38,41 @@ struct ItemDetailView: View {
                     
                     HStack {
                         Text("Période :")
-                        Text(inventoryItem.inventories.categories[0].fish![0].availability.isAllYear ? "Toute l'année" : inventoryItem.inventories.categories[0].fish![0].availability.monthNorthern
+                            .foregroundColor(.green)
+                            .bold()
+                        Text(item.categories[0].fish![0].availability.isAllYear ? "Toute l'année" : item.categories[0].fish![0].availability.monthNorthern
                         )
                     }
                     
                     HStack {
                         Text("Heure :")
+                            .foregroundColor(.green)
+                            .bold()
                         Text(
-                            inventoryItem.inventories.categories[0].fish![0].availability.isAllDay ? "Toute la journée" : inventoryItem.inventories.categories[0].fish![0].availability.time
+                            item.categories[0].fish![0].availability.isAllDay ? "Toute la journée" : item.categories[0].fish![0].availability.time
                         )
                     }
                     
                     HStack {
                         Text("Lieu :")
-                        Text(inventoryItem.inventories.categories[0].fish![0].availability.location)
+                            .foregroundColor(.green)
+                            .bold()
+                        Text(item.categories[0].fish![0].availability.location)
                     }
                     
                     
                     HStack {
                         Text("Prix:")
-                        Text(inventoryItem.inventories.categories[0].fish![0].price)
+                            .foregroundColor(.green)
+                            .bold()
+                        Text(item.categories[0].fish![0].price)
                         Text("clochettes")
+                    }
+                    HStack {
+                        Text("Taille:")
+                            .foregroundColor(.green)
+                            .bold()
+                        Text(item.categories[0].fish![0].size)
                     }
                 }
                 .font(.subheadline)

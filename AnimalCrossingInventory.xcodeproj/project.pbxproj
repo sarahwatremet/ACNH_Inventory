@@ -11,6 +11,8 @@
 		0074D215284A363E0053F118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0074D214284A363E0053F118 /* Assets.xcassets */; };
 		0074D218284A363E0053F118 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0074D217284A363E0053F118 /* Preview Assets.xcassets */; };
 		0074D223284A40230053F118 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D222284A40230053F118 /* Inventory.swift */; };
+		009B2656285A0552009C94A7 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B2655285A0552009C94A7 /* ItemRow.swift */; };
+		009B2658285A186A009C94A7 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B2657285A186A009C94A7 /* ItemList.swift */; };
 		00A80D932850ED970004CC06 /* ACNH_Inventory.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A80D922850ED970004CC06 /* ACNH_Inventory.json */; };
 		00A80D952852203F0004CC06 /* InventoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A80D942852203F0004CC06 /* InventoryData.swift */; };
 		00A80D9B285234140004CC06 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A80D9A285234140004CC06 /* ItemDetailView.swift */; };
@@ -23,6 +25,8 @@
 		0074D214284A363E0053F118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0074D217284A363E0053F118 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0074D222284A40230053F118 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		009B2655285A0552009C94A7 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		009B2657285A186A009C94A7 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
 		00A80D922850ED970004CC06 /* ACNH_Inventory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ACNH_Inventory.json; sourceTree = "<group>"; };
 		00A80D942852203F0004CC06 /* InventoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryData.swift; sourceTree = "<group>"; };
 		00A80D9A285234140004CC06 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 			children = (
 				00A80D9A285234140004CC06 /* ItemDetailView.swift */,
 				00A80D9C28523E7A0004CC06 /* ItemImage.swift */,
+				009B2655285A0552009C94A7 /* ItemRow.swift */,
+				009B2657285A186A009C94A7 /* ItemList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +183,8 @@
 				00A80D9B285234140004CC06 /* ItemDetailView.swift in Sources */,
 				0074D223284A40230053F118 /* Inventory.swift in Sources */,
 				00A80D9D28523E7A0004CC06 /* ItemImage.swift in Sources */,
+				009B2658285A186A009C94A7 /* ItemList.swift in Sources */,
+				009B2656285A0552009C94A7 /* ItemRow.swift in Sources */,
 				00A80D952852203F0004CC06 /* InventoryData.swift in Sources */,
 				0074D211284A363C0053F118 /* AnimalCrossingInventoryApp.swift in Sources */,
 			);
