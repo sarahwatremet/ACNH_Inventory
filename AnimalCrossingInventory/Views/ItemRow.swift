@@ -8,20 +8,19 @@
 import SwiftUI
 
 struct ItemRow: View {
-    var item: Inventory
+    var item: Item
     
     var body: some View {
         HStack {
             
-            AsyncImage(url: URL(string: item.categories[0].fish![0].imageURL)) { image in
+            AsyncImage(url: URL(string: item.imageURL)) { image in
                 image
                     .resizable()
                     .background(Image("fond"))
                     .clipShape(Rectangle())
                     .overlay{
-                        Rectangle().stroke(.green, lineWidth: 2)
+                        Rectangle().stroke(.green, lineWidth: 1)
                     }
-                    .shadow(radius: 2)
                     .frame(width: 30, height: 30)
             } placeholder: {
                 ProgressView()
@@ -29,48 +28,65 @@ struct ItemRow: View {
             
             VStack(alignment: .leading) {
                 HStack {
-                    Text(item.categories[0].fish![0].name)
+                    Text(item.name)
                         .bold()
                         .font(.subheadline)
                 }
+                
                 HStack(spacing: 3) {
-                    
+                    Group {
                         Text("Période :")
                             .foregroundColor(.green)
                             .bold()
-                        Text(item.categories[0].fish![0].availability.isAllYear ? "Toute l'année" : item.categories[0].fish![0].availability.monthNorthern
+                        Text(item.availability.isAllYear ? "Toute l'année" : item.availability.monthNorthern
                         )
                     
-                    Text("Heure :")
-                        .foregroundColor(.green)
-                        .bold()
-                    Text(
-                        item.categories[0].fish![0].availability.isAllDay ? "Toute la journée" : item.categories[0].fish![0].availability.time
-                    )
-                    
-                    Text("Lieu :")
-                        .foregroundColor(.green)
-                        .bold()
-                    Text(item.categories[0].fish![0].availability.location)
+                        Text("Heure :")
+                            .foregroundColor(.green)
+                            .bold()
+                        Text(
+                            item.availability.isAllDay ? "Toute la journée" : item.availability.time
+                        )
+                    }
+                        .font(.system(size: 10))
                 }
                 
                 HStack(spacing: 3) {
-                    Text("Prix:")
+                    Group {
+                        Text("Lieu :")
                         .foregroundColor(.green)
                         .bold()
-                    Text(item.categories[0].fish![0].price)
-                    Text("clochettes")
+                        Text(item.availability.location)
+                        
+                        Text("Prix:")
+                            .foregroundColor(.green)
+                            .bold()
+                        Text(String(item.price))
+                        Text("clochettes")
+                    }
+                        .font(.system(size: 10))
+                    
+                    Spacer()
+                    
                 }
             }
-            .font(.system(size: 10))
             Spacer()
+            
+            if item.obtained {
+                Image(systemName: "tag.fill")
+                    .foregroundColor(.green)
+                    .imageScale(.small)
+            }
         }
         .padding(5)
     }
+    
+    
 }
 
 struct ItemRow_Previews: PreviewProvider {
+    static var items = InventoryData().inventories.items
     static var previews: some View {
-        ItemRow(item: InventoryData().inventories)
+        ItemRow(item: items[0])
     }
 }

@@ -10,12 +10,12 @@ import Combine
 
 struct ItemDetailView: View {
     @EnvironmentObject var inventoryItem: InventoryData
-    var item: Inventory
+    var item: Item
     
     var body: some View {
         VStack {
             
-            AsyncImage(url: URL(string: item.categories[0].fish![0].imageURL)) { image in
+            AsyncImage(url: URL(string: item.imageURL)) { image in
                 image
                     .background(Image("fond"))
                     .clipShape(Rectangle())
@@ -30,7 +30,7 @@ struct ItemDetailView: View {
                 
             
             VStack {
-                Text(item.categories[0].fish![0].name)
+                Text(item.name)
                 .font(.title)
                 .bold()
             
@@ -40,7 +40,7 @@ struct ItemDetailView: View {
                         Text("Période :")
                             .foregroundColor(.green)
                             .bold()
-                        Text(item.categories[0].fish![0].availability.isAllYear ? "Toute l'année" : item.categories[0].fish![0].availability.monthNorthern
+                        Text(item.availability.isAllYear ? "Toute l'année" : item.availability.monthNorthern
                         )
                     }
                     
@@ -49,7 +49,7 @@ struct ItemDetailView: View {
                             .foregroundColor(.green)
                             .bold()
                         Text(
-                            item.categories[0].fish![0].availability.isAllDay ? "Toute la journée" : item.categories[0].fish![0].availability.time
+                            item.availability.isAllDay ? "Toute la journée" : item.availability.time
                         )
                     }
                     
@@ -57,7 +57,7 @@ struct ItemDetailView: View {
                         Text("Lieu :")
                             .foregroundColor(.green)
                             .bold()
-                        Text(item.categories[0].fish![0].availability.location)
+                        Text(item.availability.location)
                     }
                     
                     
@@ -65,14 +65,14 @@ struct ItemDetailView: View {
                         Text("Prix:")
                             .foregroundColor(.green)
                             .bold()
-                        Text(item.categories[0].fish![0].price)
+                        Text(String(item.price))
                         Text("clochettes")
                     }
                     HStack {
                         Text("Taille:")
                             .foregroundColor(.green)
                             .bold()
-                        Text(item.categories[0].fish![0].size)
+                        Text(item.size)
                     }
                 }
                 .font(.subheadline)
@@ -85,7 +85,7 @@ struct ItemDetailView_Previews: PreviewProvider {
     static let inventoryItems = InventoryData()
 
     static var previews: some View {
-        ItemDetailView(item: InventoryData().inventories)
+        ItemDetailView(item: InventoryData().inventories.items[0])
             .environmentObject(inventoryItems)
     }
 }

@@ -9,15 +9,28 @@ import SwiftUI
 
 struct ItemList: View {
     @EnvironmentObject var inventoryItem: InventoryData
+    
+    @State private var showMissingOnly = false
+    
+    var filteredItems: [Item] {
+        inventoryItem.inventories.items.filter { item in
+            (!showMissingOnly || item.obtained == false)
+        }
+    }
 
     var body: some View {
         NavigationView {
             List {
-                ItemRow(item: inventoryItem.inventories)
+                Toggle(isOn: $showMissingOnly){
+                    Text("Manquants")
+                }
+                
+                ForEach(filteredItems) { item in
+                    ItemRow(item: item)
+                }
             }
-            .navigationTitle("Poissons")
+        .navigationTitle("Poissons")
         }
-        
     }
 }
 

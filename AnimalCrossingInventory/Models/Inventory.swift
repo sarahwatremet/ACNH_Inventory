@@ -14,34 +14,28 @@
 import Foundation
 import SwiftUI
 
-// MARK: - Inventory
+
+// MARK: - Welcome
 struct Inventory: Codable {
-    let categories: [Category]
+    let items: [Item]
 }
 
-// MARK: - Category
-struct Category: Codable {
-    let fish: [Fish]?
-    let bugs: [Bug]?
-    let deepSea: [DeepSea]?
-
-    enum CodingKeys: String, CodingKey {
-        case fish, bugs
-        case deepSea = "deep_sea"
-    }
-}
-
-// MARK: - Bug
-struct Bug: Codable, Identifiable {
-    let id, name, price, size: String
-    let obtained: Obtained
+// MARK: - Item
+struct Item: Codable, Identifiable {
+    let id, name: String
+    let price: Int
+    let size: String
+    let obtained: Bool
     let availability: Availability
-    let imageURL, logoURL: String
+    let imageURL: String
+    let logoURL: String
+    let category: Category
 
     enum CodingKeys: String, CodingKey {
         case id, name, price, size, obtained, availability
         case imageURL = "image_url"
         case logoURL = "logo_url"
+        case category
     }
 }
 
@@ -60,59 +54,6 @@ struct Availability: Codable {
     }
 }
 
-
-enum Obtained: Codable {
-    case bool(Bool)
-    case string(String)
-
-    init(from decoder: Decoder) throws {
-        let container = try decoder.singleValueContainer()
-        if let x = try? container.decode(Bool.self) {
-            self = .bool(x)
-            return
-        }
-        if let x = try? container.decode(String.self) {
-            self = .string(x)
-            return
-        }
-        throw DecodingError.typeMismatch(Obtained.self, DecodingError.Context(codingPath: decoder.codingPath, debugDescription: "Wrong type for Obtained"))
-    }
-
-    func encode(to encoder: Encoder) throws {
-        var container = encoder.singleValueContainer()
-        switch self {
-        case .bool(let x):
-            try container.encode(x)
-        case .string(let x):
-            try container.encode(x)
-        }
-    }
-}
-
-// MARK: - DeepSea
-struct DeepSea: Codable, Identifiable {
-    let id, name, price, size: String
-    let obtained: String
-    let availability: Availability
-    let imageURL, logoURL: String
-
-    enum CodingKeys: String, CodingKey {
-        case id, name, price, size, obtained, availability
-        case imageURL = "image_url"
-        case logoURL = "logo_url"
-    }
-}
-
-// MARK: - Fish
-struct Fish: Codable, Identifiable {
-    let id, name, price, size: String
-    let obtained: Bool
-    let availability: Availability
-    let imageURL, logoURL: String
-
-    enum CodingKeys: String, CodingKey {
-        case id, name, price, size, obtained, availability
-        case imageURL = "image_url"
-        case logoURL = "logo_url"
-    }
+enum Category: String, Codable {
+    case poissons = "Poissons"
 }
