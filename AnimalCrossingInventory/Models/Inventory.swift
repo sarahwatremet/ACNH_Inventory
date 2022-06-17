@@ -17,7 +17,7 @@ import SwiftUI
 
 // MARK: - Welcome
 struct Inventory: Codable {
-    let items: [Item]
+    var items: [Item]
 }
 
 // MARK: - Item
@@ -25,7 +25,7 @@ struct Item: Codable, Identifiable {
     let id, name: String
     let price: Int
     let size: String
-    let obtained: Bool
+    var obtained: Bool
     let availability: Availability
     let imageURL: String
     let logoURL: String

@@ -8,7 +8,13 @@
 import SwiftUI
 
 struct ItemRow: View {
+    @EnvironmentObject var inventoryData: InventoryData
     var item: Item
+    
+    var itemIndex: Int {
+        inventoryData.inventories.items.firstIndex(where: { $0.id == item.id })!
+    }
+    
     
     var body: some View {
         HStack {
@@ -71,12 +77,9 @@ struct ItemRow: View {
                 }
             }
             Spacer()
+                        
+            ObtainedButton(isSet: $inventoryData.inventories.items[itemIndex].obtained)
             
-            if item.obtained {
-                Image(systemName: "tag.fill")
-                    .foregroundColor(.green)
-                    .imageScale(.small)
-            }
         }
         .padding(5)
     }
@@ -85,8 +88,10 @@ struct ItemRow: View {
 }
 
 struct ItemRow_Previews: PreviewProvider {
-    static var items = InventoryData().inventories.items
+    static var items = InventoryData()
+    
     static var previews: some View {
-        ItemRow(item: items[0])
+        ItemRow(item: items.inventories.items[0])
+            .environmentObject(items)
     }
 }
