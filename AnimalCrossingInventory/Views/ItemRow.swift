@@ -14,7 +14,8 @@ struct ItemRow: View {
     var itemIndex: Int {
         inventoryData.inventories.items.firstIndex(where: { $0.id == item.id })!
     }
-        
+    
+    //var rarity: Rarity
     
     var body: some View {
         HStack {
@@ -38,13 +39,24 @@ struct ItemRow: View {
                         .bold()
                         .font(.subheadline)
                     
-                    Text(item.availability.rarity)
-                        .font(.system(size: 8))
-                        .foregroundColor(.white)
-                        .padding(3)
-                        .background(.yellow)
-                        .cornerRadius(5)
-                        
+                    switch item.availability.rarity {
+                    case .empty:
+                        Text("")
+                    case .rare:
+                        Text(Rarity.rare.rawValue)
+                            .font(.system(size: 8))
+                            .foregroundColor(.white)
+                            .padding(3)
+                            .background(.yellow)
+                            .cornerRadius(5)
+                    case .trèsRare:
+                        Text(Rarity.trèsRare.rawValue)
+                            .font(.system(size: 8))
+                            .foregroundColor(.white)
+                            .padding(3)
+                            .background(.yellow)
+                            .cornerRadius(5)
+                    }
                 }
                 
                 HStack(spacing: 3) {

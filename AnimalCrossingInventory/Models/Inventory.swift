@@ -45,13 +45,19 @@ struct Availability: Codable {
     let time: String
     let isAllDay, isAllYear: Bool
     let location: String
-    let rarity: String
+    let rarity: Rarity
 
     enum CodingKeys: String, CodingKey {
         case monthNorthern = "month-northern"
         case monthSouthern = "month-southern"
         case time, isAllDay, isAllYear, location, rarity
     }
+}
+
+enum Rarity: String, Codable {
+    case empty = ""
+    case rare = "Rare"
+    case trèsRare = "Très Rare"
 }
 
 enum Category: String, Codable {
