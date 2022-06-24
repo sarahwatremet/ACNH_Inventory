@@ -14,7 +14,7 @@ struct ItemRow: View {
     var itemIndex: Int {
         inventoryData.inventories.items.firstIndex(where: { $0.id == item.id })!
     }
-    
+        
     
     var body: some View {
         HStack {
@@ -37,6 +37,14 @@ struct ItemRow: View {
                     Text(item.name)
                         .bold()
                         .font(.subheadline)
+                    
+                    Text(item.availability.rarity)
+                        .font(.system(size: 8))
+                        .foregroundColor(.white)
+                        .padding(3)
+                        .background(.yellow)
+                        .cornerRadius(5)
+                        
                 }
                 
                 HStack(spacing: 3) {
@@ -91,7 +99,7 @@ struct ItemRow_Previews: PreviewProvider {
     static var items = InventoryData()
     
     static var previews: some View {
-        ItemRow(item: items.inventories.items[0])
+        ItemRow(item: items.inventories.items[3])
             .environmentObject(items)
     }
 }

@@ -56,4 +56,5 @@ struct Availability: Codable {
 
 enum Category: String, Codable {
     case poissons = "Poissons"
+    case insectes = "Insectes"
 }

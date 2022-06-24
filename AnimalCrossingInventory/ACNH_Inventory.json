@@ -5,7 +5,7 @@
             "name": "Anchois",
             "price": 200,
             "size": "Petite",
-            "obtained": true,
+            "obtained": false,
             "availability": {
                 "month-northern": "",
                 "month-southern": "",
@@ -1519,6 +1519,1526 @@
             "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/poissons/Vivaneau.png",
             "logo_url": "",
             "category": "Poissons"
+        },
+        {
+            "id": "81",
+            "name": "Abeille Naine",
+            "price": 200,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mars - Juillet",
+                "month-southern": "",
+                "time": "8h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Abeille%20naine.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "82",
+            "name": "Acrida Cinerea",
+            "price": 200,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Avril - Novembre",
+                "month-southern": "",
+                "time": "8h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Sol",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Acrida%20cinerea.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "83",
+            "name": "Agrias",
+            "price": 3000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Avril - Septembre",
+                "month-southern": "",
+                "time": "8h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Agrias.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "84",
+            "name": "Anax Napolitain",
+            "price": 230,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Avril - Octobre",
+                "month-southern": "",
+                "time": "8h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Anax%20napolitain.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "85",
+            "name": "Araignée",
+            "price": 600,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "",
+                "month-southern": "",
+                "time": "19h - 8h",
+                "isAllDay": false,
+                "isAllYear": true,
+                "location": "Abres",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Araign%C3%A9e.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "86",
+            "name": "Attacus Atlas",
+            "price": 3000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Avril - Septembre",
+                "month-southern": "",
+                "time": "19h - 4h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Abres et Palmiers",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Attacus%20Atlas.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "87",
+            "name": "Bernard-l'ermite",
+            "price": 1000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "",
+                "month-southern": "",
+                "time": "19h - 8h",
+                "isAllDay": false,
+                "isAllYear": true,
+                "location": "Plage",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Bernard-l'ermite.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "88",
+            "name": "Bousier",
+            "price": 2500,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Décembre - Février",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Boules de neige",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Bousier.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "89",
+            "name": "Bupreste",
+            "price": 2400,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Avril - Août",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Souches d'arbres",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Bupreste.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "90",
+            "name": "Capricorne des Agrumes",
+            "price": 350,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": true,
+                "location": "Souches d'arbres",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Capricorne%20des%20agrumes.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "91",
+            "name": "Catacanthus",
+            "price": 1000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mars - Octobre",
+                "month-southern": "",
+                "time": "19h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Fleurs",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Catacanthus.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "92",
+            "name": "Charançon Bleu",
+            "price": 800,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Palmiers",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Charan%C3%A7on%20bleu.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "93",
+            "name": "Chrysiridia Rhipheus",
+            "price": 2500,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Avril - Septembre",
+                "month-southern": "",
+                "time": "8h - 16h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Chrysiridia%20rhipheus.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "94",
+            "name": "Cicindèle",
+            "price": 1500,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Février - Octobre",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Sol",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Cicind%C3%A8le.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "95",
+            "name": "Cigale Cercope",
+            "price": 250,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "8h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Cigale%20cercope.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "96",
+            "name": "Cigale Cicadelle",
+            "price": 400,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Août - Septembre",
+                "month-southern": "",
+                "time": "8h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Cigale%20cicadelle.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "97",
+            "name": "Cigale Géante",
+            "price": 500,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "8h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Cigale%20g%C3%A9ante.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "98",
+            "name": "Cigale Higurashi",
+            "price": 550,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "4h - 8h, 16h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Cigale%20higurashi.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "99",
+            "name": "Cigale Hyalessa",
+            "price": 300,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "8h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Cigale%20hyalessa.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "100",
+            "name": "Citrin",
+            "price": 160,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mars - Juin, Septembre - Octobre",
+                "month-southern": "",
+                "time": "4h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Citrin.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "101",
+            "name": "Cloporte",
+            "price": 250,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Septembre - Juin",
+                "month-southern": "",
+                "time": "23h - 6h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Rochers",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Cloporte.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "102",
+            "name": "Coccinelle",
+            "price": 200,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mars - Juin, Octobre",
+                "month-southern": "",
+                "time": "8h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Fleurs",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Coccinelle.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "103",
+            "name": "Cordulégastre",
+            "price": 4500,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mai - Octobre",
+                "month-southern": "",
+                "time": "8h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Cordul%C3%A9gastre.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "104",
+            "name": "Criquet",
+            "price": 400,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Août - Novembre",
+                "month-southern": "",
+                "time": "8h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Sol",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Criquet.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "105",
+            "name": "Criquet Pélerin",
+            "price": 600,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Août - Novembre",
+                "month-southern": "",
+                "time": "8h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Sol",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Criquet%20p%C3%A8lerin.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "106",
+            "name": "Demoiselle",
+            "price": 500,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Novembre - Février",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Demoiselle.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "107",
+            "name": "Dytique",
+            "price": 800,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mai - Septembre",
+                "month-southern": "",
+                "time": "8h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Surface de l'eau",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Dytique.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "108",
+            "name": "Escargot",
+            "price": 250,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": true,
+                "location": "Buissons, Rochers (pluie)",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Escargot.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "109",
+            "name": "Fourmi",
+            "price": 80,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": true,
+                "location": "Navets pourris",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Fourmi.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "110",
+            "name": "Geotrupidae",
+            "price": 300,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Septembre",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Sol",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Geotrupidae.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "111",
+            "name": "Grand Planeur",
+            "price": 1000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "",
+                "month-southern": "",
+                "time": "8h - 19h",
+                "isAllDay": false,
+                "isAllYear": true,
+                "location": "Ciel",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Grand%20planeur.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "112",
+            "name": "Graphium Sarpedon",
+            "price": 300,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Avril - Août",
+                "month-southern": "",
+                "time": "4h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Graphium%20sarpedon.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "113",
+            "name": "Grillon des Prés",
+            "price": 130,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Septembre - Novembre",
+                "month-southern": "",
+                "time": "17h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Sol",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Grillon%20des%20pr%C3%A9s.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "114",
+            "name": "Grillon du Midi",
+            "price": 430,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Septembre - Octobre",
+                "month-southern": "",
+                "time": "17h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Sol",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Grillon%20du%20Midi.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "115",
+            "name": "Guêpe",
+            "price": 2500,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": true,
+                "location": "Arbres",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Gu%C3%AApe.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "116",
+            "name": "Ligie",
+            "price": 200,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": true,
+                "location": "Plage (rochers)",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Ligie.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "117",
+            "name": "Lucane Cerf-Volant",
+            "price": 10000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "23h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": "Très Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Lucane%20cerf-volant.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "118",
+            "name": "Lucane Copris Irisé",
+            "price": 6000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juin - Septembre",
+                "month-southern": "",
+                "time": "19h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": "Très Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Lucane%20copris%20iris%C3%A9.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "119",
+            "name": "Lucane Cyclommatus",
+            "price": 8000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "17h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Palmiers",
+                "rarity": "Très Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Lucane%20cyclommatus.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "120",
+            "name": "Lucane Girafe",
+            "price": 12000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "17h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Palmiers",
+                "rarity": "Très Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Lucane%20girafe.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "121",
+            "name": "Lucane Inclinatus",
+            "price": 2000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Lucane%20inclinatus.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "122",
+            "name": "Lucane Lamprima",
+            "price": 12000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "17h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Palmiers",
+                "rarity": "Très Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Lucane%20lamprima.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "123",
+            "name": "Lucane Miyama",
+            "price": 1000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Lucane%20miyama.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "124",
+            "name": "Luciole",
+            "price": 300,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juin",
+                "month-southern": "",
+                "time": "19h - 4h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Près de l'eau",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Luciole.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "125",
+            "name": "Machaon",
+            "price": 240,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mars - Septembre",
+                "month-southern": "",
+                "time": "4h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Machaon.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "126",
+            "name": "Mante Orchidée",
+            "price": 2400,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mars - Novembre",
+                "month-southern": "",
+                "time": "8h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Fleurs blanches",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Mante%20orchid%C3%A9e.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "127",
+            "name": "Mante Religieuse",
+            "price": 430,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mars - Novembre",
+                "month-southern": "",
+                "time": "8h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Fleurs",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Mante%20religieuse.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "128",
+            "name": "Mille-pattes",
+            "price": 300,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Septembre - Juin",
+                "month-southern": "",
+                "time": "16h - 23h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Rochers",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Mille-pattes.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "129",
+            "name": "Monarque",
+            "price": 140,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Septembre - Novembre",
+                "month-southern": "",
+                "time": "4h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Monarque.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "130",
+            "name": "Mormolyce",
+            "price": 450,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mai - Juin, Septembre - Novembre",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Souches d'arbres",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Mormolyce.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "131",
+            "name": "Morpho Bleu",
+            "price": 4000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juin - Septembre, Décembre - Mars",
+                "month-southern": "",
+                "time": "17h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Morpho%20bleu.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "132",
+            "name": "Mouche",
+            "price": 60,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": true,
+                "location": "Déchets et navets pourris",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Mouche.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "133",
+            "name": "Moustique",
+            "price": 130,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juin - Septembre",
+                "month-southern": "",
+                "time": "17h - 4h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Moustique.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "134",
+            "name": "Mue de Cigale",
+            "price": 10,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Mue%20de%20cigale.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "135",
+            "name": "Papilio Bianor",
+            "price": 2500,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mars - Juin",
+                "month-southern": "",
+                "time": "4h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel (fleurs hybrides noires, violettes et bleues",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Papilio%20bianor.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "136",
+            "name": "Papillon de Nuit",
+            "price": 130,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "",
+                "month-southern": "",
+                "time": "19h - 4h",
+                "isAllDay": false,
+                "isAllYear": true,
+                "location": "Lumières",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Papillon%20de%20nuit.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "137",
+            "name": "Patineur",
+            "price": 130,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mai - Septembre",
+                "month-southern": "",
+                "time": "8h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Surface de l'eau",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Patineur.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "138",
+            "name": "Phasme",
+            "price": 600,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Novembre",
+                "month-southern": "",
+                "time": "4h - 8h, 17h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Phasme.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "139",
+            "name": "Phyllie",
+            "price": 600,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Septembre",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Sol",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Phyllie.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "140",
+            "name": "Piéride de la Rave",
+            "price": 160,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Septembre - Juin",
+                "month-southern": "",
+                "time": "4h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Pi%C3%A9ride%20de%20la%20rave.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "141",
+            "name": "Pseudotorynorrhina",
+            "price": 200,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juin - Août",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Pseudotorynorrhina.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "142",
+            "name": "Psyché",
+            "price": 600,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": true,
+                "location": "Arbres",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Psych%C3%A9.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "143",
+            "name": "Puce",
+            "price": 70,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Avril - Novembre",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Villageois",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Puce.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "144",
+            "name": "Punaise",
+            "price": 120,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mars - Octobre",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Fleurs",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Punaise.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "145",
+            "name": "Punaise d'Eau Géante",
+            "price": 2000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Avril - Septembre",
+                "month-southern": "",
+                "time": "19h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Surface de l'eau",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Punaise%20d'eau%20g%C3%A9ante.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "146",
+            "name": "Rosalia Batesi",
+            "price": 3000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mai - Septembre",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Souches d'Arbres",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Rosalia%20batesi.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "147",
+            "name": "Sasakia Charonda",
+            "price": 3000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mai - Août",
+                "month-southern": "",
+                "time": "4h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Sasakia%20charonda.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "148",
+            "name": "Sauterelle",
+            "price": 160,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Septembre",
+                "month-southern": "",
+                "time": "8h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Sol",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Sauterelle.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "149",
+            "name": "Scarabée",
+            "price": 10000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "23h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": "Très Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Scarab%C3%A9e.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "150",
+            "name": "Scarabée Atlas",
+            "price": 8000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "17h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Palmiers",
+                "rarity": "Très Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Scarab%C3%A9e%20Atlas.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "151",
+            "name": "Scarabée Eléphant",
+            "price": 8000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "17h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Palmiers",
+                "rarity": "Très Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Scarab%C3%A9e%20%C3%A9l%C3%A9phant.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "152",
+            "name": "Scarabée Goliath",
+            "price": 8000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juin - Septembre",
+                "month-southern": "",
+                "time": "17h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Palmiers",
+                "rarity": "Très Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Scarab%C3%A9e%20Goliath.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "153",
+            "name": "Scarabée Hercule",
+            "price": 12000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "17h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Palmiers",
+                "rarity": "Très Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Scarab%C3%A9e%20Hercule.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "154",
+            "name": "Scarabée Kabuto",
+            "price": 1350,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Juillet - Août",
+                "month-southern": "",
+                "time": "17h - 8h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Arbres",
+                "rarity": "Très Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Scarab%C3%A9e%20kabuto.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "155",
+            "name": "Scorpion",
+            "price": 8000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mai - Octobre",
+                "month-southern": "",
+                "time": "19h - 4h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Sol",
+                "rarity": "Très Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Scorpion.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "156",
+            "name": "Sympetrum",
+            "price": 180,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Septembre - Octobre",
+                "month-southern": "",
+                "time": "8h - 19h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Sympetrum.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "157",
+            "name": "Tarentule",
+            "price": 8000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Novembre - Avril",
+                "month-southern": "",
+                "time": "19h - 4h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Sol",
+                "rarity": "Très Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Tarentule.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "158",
+            "name": "Taupe-Grillon",
+            "price": 500,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Novembre - Mai",
+                "month-southern": "",
+                "time": "",
+                "isAllDay": true,
+                "isAllYear": false,
+                "location": "Sous terre",
+                "rarity": ""
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Taupe-grillon.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "159",
+            "name": "Troides Alexandrae",
+            "price": 4000,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Mai - Septembre",
+                "month-southern": "",
+                "time": "8h - 16h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Troides%20alexandrae.png",
+            "logo_url": "",
+            "category": "Insectes"
+        },
+        {
+            "id": "160",
+            "name": "Troides Brookiana",
+            "price": 2500,
+            "size": "",
+            "obtained": false,
+            "availability": {
+                "month-northern": "Avril - Septembre, Décembre - Février",
+                "month-southern": "",
+                "time": "8h - 17h",
+                "isAllDay": false,
+                "isAllYear": false,
+                "location": "Ciel",
+                "rarity": "Rare"
+            },
+            "image_url": "https://www.animalcrossing-online.com/new-horizons-switch/img/insectes/Troides%20Brookiana.png",
+            "logo_url": "",
+            "category": "Insectes"
         }
     ]
 }
