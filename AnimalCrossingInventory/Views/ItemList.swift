@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ItemList: View {
     @EnvironmentObject var inventoryItem: InventoryData
+    //let category: Category
     
     @State private var showMissingOnly = false
     

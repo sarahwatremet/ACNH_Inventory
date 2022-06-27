@@ -14,9 +14,7 @@ struct ItemRow: View {
     var itemIndex: Int {
         inventoryData.inventories.items.firstIndex(where: { $0.id == item.id })!
     }
-    
-    //var rarity: Rarity
-    
+        
     var body: some View {
         HStack {
             
@@ -54,7 +52,7 @@ struct ItemRow: View {
                             .font(.system(size: 8))
                             .foregroundColor(.white)
                             .padding(3)
-                            .background(.yellow)
+                            .background(.orange)
                             .cornerRadius(5)
                     }
                 }

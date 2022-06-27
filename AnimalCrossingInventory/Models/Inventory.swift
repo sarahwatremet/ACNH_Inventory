@@ -13,6 +13,7 @@
 
 import Foundation
 import SwiftUI
+import Combine
 
 
 // MARK: - Welcome
@@ -37,6 +38,11 @@ struct Item: Codable, Identifiable {
         case logoURL = "logo_url"
         case category
     }
+    
+    enum Category: String, Codable, CaseIterable, Hashable {
+        case poissons = "Poissons"
+        case insectes = "Insectes"
+    }
 }
 
 // MARK: - Availability
@@ -60,7 +66,3 @@ enum Rarity: String, Codable {
     case trèsRare = "Très Rare"
 }
 
-enum Category: String, Codable {
-    case poissons = "Poissons"
-    case insectes = "Insectes"
-}
