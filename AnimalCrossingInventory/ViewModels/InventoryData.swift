@@ -9,15 +9,14 @@ import Foundation
 import Combine
 
 final class InventoryData: ObservableObject {
-     @Published var inventories: Inventory = load("ACNH_Inventory.json")
-    //let item: Item
+     @Published var inventories: [Inventory] = load("ACNH_Inventory.json")
     
-//    var categories: [String: [Inventory]] {
-//        Dictionary(
-//            grouping: inventories,
-//            by: { $0.category.rawValue }
-//        )
-//    }
+    var categories: [String: [Inventory]] {
+        Dictionary(
+            grouping: inventories,
+            by: { $0.items[0].category.rawValue }
+        )
+    }
 }
 
 func load<T: Decodable>(_ filename: String) -> T {

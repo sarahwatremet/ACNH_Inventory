@@ -22,7 +22,7 @@ struct Inventory: Codable {
 }
 
 // MARK: - Item
-struct Item: Codable, Identifiable {
+struct Item: Identifiable, Codable {
     let id, name: String
     let price: Int
     let size: String
@@ -65,4 +65,6 @@ enum Rarity: String, Codable {
     case rare = "Rare"
     case trèsRare = "Très Rare"
 }
+
+
 
