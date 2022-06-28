@@ -9,10 +9,10 @@ import SwiftUI
 
 struct ItemRow: View {
     @EnvironmentObject var inventoryData: InventoryData
-    var item: Item
+    var item: Inventory
     
     var itemIndex: Int {
-        inventoryData.inventories.items.firstIndex(where: { $0.id == item.id })!
+        inventoryData.inventories.firstIndex(where: { $0.id == item.id })!
     }
         
     var body: some View {
@@ -96,7 +96,7 @@ struct ItemRow: View {
             }
             Spacer()
                         
-            ObtainedButton(isSet: $inventoryData.inventories.items[itemIndex].obtained)
+            ObtainedButton(isSet: $inventoryData.inventories[itemIndex].obtained)
             
         }
         .padding(5)
@@ -106,10 +106,10 @@ struct ItemRow: View {
 }
 
 struct ItemRow_Previews: PreviewProvider {
-    static var items = InventoryData()
+    static let items = InventoryData()
     
     static var previews: some View {
-        ItemRow(item: items.inventories.items[3])
+        ItemRow(item: items.inventories[0])
             .environmentObject(items)
     }
 }

@@ -9,35 +9,15 @@
 //
 //struct CategoryHome: View {
 //    @EnvironmentObject var inventoryData: InventoryData
-//    
+//
 //    var body: some View {
-//        let columns = [GridItem(), GridItem()]
-//            NavigationView {
-//              ScrollView {
-//                LazyVGrid(columns: columns, content: {
-//                    ForEach($inventoryData.categories.keys.sorted,
-//                          id: \.self) { category in
-//                      NavigationLink(
-//                        destination: ItemList(category: Category(rawValue: category) ?? Category.poissons)
-//                            .environmentObject(inventoryData),
-//                        label: {
-//                            CategoryView(category: Category(rawValue: category) ?? Category.poissons)
-//                        })
-//                  }
-//                })
-//              }
-//              .navigationTitle("Categories")
+//        NavigationView {
+//            List {
+//                ForEach(inventoryData.categories.keys.sorted(), id: \.self) { key in
+//                    Text(key)
+//                }
 //            }
-//    }
-//}
-//
-//struct CategoryView: View {
-//    let category: Category
-//
-//    var body: some View {
-//        ZStack {
-//            Text(category.rawValue)
-//                .font(.title)
+//            .navigationTitle("Catégories")
 //        }
 //    }
 //}

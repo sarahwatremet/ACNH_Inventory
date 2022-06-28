@@ -13,8 +13,8 @@ struct ItemList: View {
     
     @State private var showMissingOnly = false
     
-    var filteredItems: [Item] {
-        inventoryItem.inventories.items.filter { item in
+    var filteredItems: [Inventory] {
+        inventoryItem.inventories.filter { item in
             (!showMissingOnly || item.obtained == false)
         }
     }
