@@ -9,16 +9,20 @@ import SwiftUI
 
 struct ItemList: View {
     @EnvironmentObject var inventoryItem: InventoryData
-    //let category: Category
     
     @State private var showMissingOnly = false
+    
+    //var item: Inventory
+    
+    var categoryName: String
+    var items: [Inventory]
     
     var filteredItems: [Inventory] {
         inventoryItem.inventories.filter { item in
             (!showMissingOnly || item.obtained == false)
         }
     }
-
+    
     var body: some View {
         NavigationView {
             List {
@@ -27,7 +31,9 @@ struct ItemList: View {
                 }
                 
                 ForEach(filteredItems) { item in
-                    ItemRow(item: item)
+                    ItemRow(
+                        item: item
+                    )
                 }
             }
         .navigationTitle("Poissons")
@@ -36,10 +42,13 @@ struct ItemList: View {
 }
 
 struct ItemList_Previews: PreviewProvider {
-    static let inventoryItems = InventoryData()
+    static var inventoryItems = InventoryData()
     
     static var previews: some View {
-        ItemList()
+        ItemList(
+            categoryName: inventoryItems.inventories[0].category.rawValue,
+            items: inventoryItems.inventories
+        )
             .environmentObject(inventoryItems)
     }
 }
