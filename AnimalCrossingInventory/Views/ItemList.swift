@@ -11,17 +11,15 @@ struct ItemList: View {
     @EnvironmentObject var inventoryItem: InventoryData
     
     @State private var showMissingOnly = false
-    
-    //var item: Inventory
-    
+        
     var categoryName: String
     var items: [Inventory]
     
-    var filteredItems: [Inventory] {
-        inventoryItem.inventories.filter { item in
-            (!showMissingOnly || item.obtained == false)
-        }
-    }
+//    var filteredItems: [Inventory] {
+//        inventoryItem.inventories.filter { item in
+//            (!showMissingOnly || item.obtained == false)
+//        }
+//    }
     
     var body: some View {
         NavigationView {
@@ -30,13 +28,13 @@ struct ItemList: View {
                     Text("Manquants")
                 }
                 
-                ForEach(filteredItems) { item in
+                ForEach(items) { item in
                     ItemRow(
                         item: item
                     )
                 }
             }
-        .navigationTitle("Poissons")
+        .navigationTitle(categoryName)
         }
     }
 }

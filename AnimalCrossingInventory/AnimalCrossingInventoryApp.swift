@@ -13,7 +13,9 @@ struct AnimalCrossingInventoryApp: App {
 
     var body: some Scene {
         WindowGroup {
-            CategoryHome()
+            CategoryHome(categoryName: inventoryItems.inventories[0].category.rawValue,
+                         items: inventoryItems.inventories
+            )
                 .environmentObject(inventoryItems)
         }
     }

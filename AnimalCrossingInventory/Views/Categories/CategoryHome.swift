@@ -9,12 +9,19 @@ import SwiftUI
 
 struct CategoryHome: View {
     @EnvironmentObject var inventoryData: InventoryData
-
+    var categoryName: String
+    var items: [Inventory]
+    
     var body: some View {
         NavigationView {
             List {
                 ForEach(inventoryData.categories.keys.sorted(), id: \.self) { key in
-                    Text(key)
+                    NavigationLink {
+                        ItemList(categoryName: key,
+                                 items: inventoryData.categories[key]!)
+                    } label: {
+                        Text(key)
+                    }
                 }
             }
             .navigationTitle("Catégories")
@@ -24,8 +31,12 @@ struct CategoryHome: View {
 
 
 struct CategoryHome_Previews: PreviewProvider {
+    static let items = InventoryData()
+    
     static var previews: some View {
-        CategoryHome()
+        CategoryHome(categoryName: items.inventories[0].category.rawValue,
+                     items: items.inventories
+        )
             .environmentObject(InventoryData())
     }
 }
