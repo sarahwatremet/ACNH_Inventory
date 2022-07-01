@@ -15,11 +15,11 @@ struct ItemList: View {
     var categoryName: String
     var items: [Inventory]
     
-//    var filteredItems: [Inventory] {
-//        inventoryItem.inventories.filter { item in
-//            (!showMissingOnly || item.obtained == false)
-//        }
-//    }
+    var filteredItems: [Inventory] {
+        items.filter { item in
+            (!showMissingOnly || item.obtained == false)
+        }
+    }
     
     var body: some View {
         NavigationView {
@@ -28,7 +28,7 @@ struct ItemList: View {
                     Text("Manquants")
                 }
                 
-                ForEach(items) { item in
+                ForEach(filteredItems) { item in
                     ItemRow(
                         item: item
                     )
