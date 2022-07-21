@@ -21,6 +21,13 @@ struct ItemList: View {
         }
     }
     
+    @State private var increasingPrice = false
+    
+    var sortedIncreasingPrice: [Inventory] {
+        items.sorted(by: { !increasingPrice || $0.price < $1.price })
+    }
+
+    
     var body: some View {
         NavigationView {
             List {
@@ -28,6 +35,14 @@ struct ItemList: View {
                     Text("Manquants")
                 }
                 
+                Toggle(isOn: $increasingPrice){
+                    Text("Prix croissants")
+                }
+                
+                ForEach(sortedIncreasingPrice) { item in
+                    ItemRow(item: item)
+                }
+
                 ForEach(filteredItems) { item in
                     ItemRow(
                         item: item

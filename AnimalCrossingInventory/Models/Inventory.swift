@@ -19,7 +19,7 @@ import Combine
 // MARK: - Inventory Element
 struct Inventory: Codable, Identifiable {
     let id, name: String
-    let price: Int
+    var price: Int
     let size: Size
     var obtained: Bool
     let availability: Availability
@@ -33,6 +33,7 @@ struct Inventory: Codable, Identifiable {
         case logoURL = "logo_url"
         case category
     }
+    
 }
 
 // MARK: - Availability
@@ -47,6 +48,10 @@ struct Availability: Codable {
         case monthSouthern = "month-southern"
         case time, isAllDay, isAllYear, location, rarity
     }
+    
+//    var isNow: Bool {
+//        monthNorthern = Date.now
+//    }
 }
 
 enum Rarity: String, Codable {
@@ -74,6 +79,8 @@ enum Size: String, Codable {
     case petiteMoyenne = "Petite/moyenne"
     case trèsGrande = "Très grande"
 }
+
+
 
 
 
