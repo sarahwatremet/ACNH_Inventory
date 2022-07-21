@@ -40,14 +40,19 @@ struct ItemList: View {
                 }
                 
                 ForEach(sortedIncreasingPrice) { item in
+                    ForEach(filteredItems) { item in
+                        ItemRow(
+                            item: item
+                        )
+                    }
                     ItemRow(item: item)
                 }
 
-                ForEach(filteredItems) { item in
-                    ItemRow(
-                        item: item
-                    )
-                }
+//                ForEach(filteredItems) { item in
+//                    ItemRow(
+//                        item: item
+//                    )
+//                }
             }
         .navigationTitle(categoryName)
         }
